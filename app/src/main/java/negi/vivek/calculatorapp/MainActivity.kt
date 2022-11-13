@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import java.sql.BatchUpdateException
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,6 +17,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         tvInput = findViewById(R.id.tvInput)
+
+        var btnExit :Button=findViewById(R.id.btnExit)
+
+        btnExit.setOnClickListener {
+            finish()
+        }
 
     }
 

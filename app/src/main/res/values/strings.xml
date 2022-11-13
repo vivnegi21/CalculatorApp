@@ -18,4 +18,6 @@
     <string name="_substract">-</string>
     <string name="_multiply">x</string>
     <string name="_divide">/</string>
+    <string name="exit">exit</string>
+    <string name="home">🏚️</string>
 </resources>
