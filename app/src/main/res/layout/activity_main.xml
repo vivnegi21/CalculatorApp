@@ -39,7 +39,7 @@
             android:textColor="@color/orange"
             android:backgroundTint="@color/white"
 
-            tools:ignore="OnClick" />
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnCLR"
             android:layout_width="0dp"
@@ -52,7 +52,7 @@
             android:onClick="clr"
             android:textColor="@color/orange"
             android:backgroundTint="@color/white"
-            tools:ignore="OnClick" />
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnPercentage"
             android:layout_width="0dp"
@@ -60,11 +60,11 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="%"
-            android:onClick="InDigit"
+            android:onClick="inDigit"
             android:textColor="@color/orange"
             android:backgroundTint="@color/white"
 
-            tools:ignore="OnClick" />
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnDivide"
             android:layout_width="0dp"
@@ -72,11 +72,11 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/_divide"
-            android:onClick="InDigit"
+            android:onClick="inDigit"
             android:textColor="@color/orange"
             android:backgroundTint="@color/white"
 
-            tools:ignore="OnClick" />
+            tools:ignore="UsingOnClickInXml" />
 
     </LinearLayout>
     <LinearLayout
@@ -95,8 +95,8 @@
             android:backgroundTint="@color/white"
             android:layout_weight="1"
             android:text="@string/_7"
-            android:onClick="InDigit"
-            tools:ignore="OnClick" />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnEight"
             android:layout_width="0dp"
@@ -106,8 +106,8 @@
             android:backgroundTint="@color/white"
             android:layout_weight="1"
             android:text="@string/_8"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnNine"
             android:layout_width="0dp"
@@ -117,8 +117,8 @@
             android:backgroundTint="@color/white"
             android:layout_weight="1"
             android:text="@string/_9"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnMultiply"
             android:layout_width="0dp"
@@ -128,8 +128,8 @@
             android:backgroundTint="@color/white"
             android:layout_weight="1"
             android:text="@string/_multiply"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
 
 
 
@@ -151,8 +151,8 @@
             android:backgroundTint="@color/white"
             android:layout_weight="1"
             android:text="@string/_4"
-            android:onClick="InDigit"
-            tools:ignore="OnClick" />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnFive"
             android:layout_width="0dp"
@@ -162,8 +162,8 @@
             android:backgroundTint="@color/white"
             android:layout_weight="1"
             android:text="@string/_5"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnSix"
             android:layout_width="0dp"
@@ -173,8 +173,8 @@
             android:textColor="@color/orange"
             android:layout_weight="1"
             android:text="@string/_6"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnSubstract"
             android:layout_width="0dp"
@@ -184,8 +184,8 @@
             android:textColor="@color/orange"
             android:layout_weight="1"
             android:text="@string/_substract"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
 
 
 
@@ -207,8 +207,8 @@
             android:layout_weight="1"
             android:textColor="@color/orange"
             android:text="@string/_1"
-            android:onClick="InDigit"
-            tools:ignore="OnClick" />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnTwo"
             android:layout_width="0dp"
@@ -218,8 +218,8 @@
             android:backgroundTint="@color/white"
             android:layout_weight="1"
             android:text="@string/_2"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnThree"
             android:layout_width="0dp"
@@ -229,8 +229,8 @@
             android:layout_weight="1"
             android:text="@string/_3"
             android:textColor="@color/orange"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnaddition"
             android:layout_width="0dp"
@@ -240,8 +240,8 @@
             android:layout_weight="1"
             android:textColor="@color/orange"
             android:text="@string/_addition"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
 
 
 
@@ -268,10 +268,10 @@
             android:text="@string/_0"
             android:backgroundTint="@color/white"
             android:textColor="@color/orange"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
-            android:id="@+id/btnNine"
+            android:id="@+id/btnDot"
             android:layout_width="0dp"
             android:layout_margin="2dp"
             android:layout_height="match_parent"
@@ -279,8 +279,8 @@
             android:text="@string/_dot"
             android:backgroundTint="@color/white"
             android:textColor="@color/orange"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnEqual"
             android:layout_width="0dp"
@@ -290,8 +290,8 @@
             android:backgroundTint="@color/orange"
             android:text="@string/_equal"
             android:textColor="@color/white"
-            android:onClick="InDigit"
-            />
+            android:onClick="inDigit"
+            tools:ignore="UsingOnClickInXml" />
 
 
 

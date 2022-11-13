@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun InDigit(view: View) {
+    fun inDigit(view: View) {
         tvInput?.append((view as Button).text)
     }
     fun clr(view: View){
