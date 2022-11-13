@@ -283,7 +283,7 @@
             android:text="@string/_dot"
             android:backgroundTint="@color/white"
             android:textColor="@color/orange"
-            android:onClick="inDigit"
+            android:onClick="onDecimalPoint"
             tools:ignore="UsingOnClickInXml" />
         <Button
             android:id="@+id/btnEqual"
